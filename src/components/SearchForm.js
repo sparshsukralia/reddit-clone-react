@@ -7,9 +7,9 @@ function SearchForm() {
       <form className="search-form">
         <input type="text" id="search-input" placeholder="Search..." />
         <br />
-        <h5>Limit:</h5>
         <div className="limit">
-          <select name="limit" id="limit">
+          <h5>Limit:</h5>
+          <select className="select" name="limit" id="limit">
             <option value="5">5</option>
             <option value="10">10</option>
             <option value="25">25</option>
