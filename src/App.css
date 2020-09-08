@@ -19,6 +19,7 @@ body {
 .navbar h2 {
   font-size: 2rem;
   color: #fff;
+  text-transform: uppercase;
 }
 
 .container {
@@ -26,5 +27,41 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3rem;
+  margin: 3rem auto;
+  padding: 1.5rem;
+  background: #f1f1f1;
+  width: 60%;
+  border-radius: 8px;
+}
+
+.container h3 {
+  font-size: 2rem;
+}
+
+.search-form {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+
+.search-form input {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 3px;
+  font-size: 1rem;
+  line-height: 2rem;
+  border: 0.2px solid rgb(183, 183, 184);
+  border-radius: 5px;
+}
+
+.limit {
+  width: 50%;
+}
+
+.limit select {
+  max-width: 70%;
 }
